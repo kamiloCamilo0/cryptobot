@@ -9,8 +9,19 @@ CHAT_ID = os.environ["TG_CHAT_ID"]
 COINS = {
     "BTC": (["bitcoin", "btc"], "bitcoin"),
     "ETH": (["ethereum", "ether", "eth"], "ethereum"),
+    "BNB": (["bnb", "binance coin"], "binancecoin"),
     "SOL": (["solana", "sol"], "solana"),
-    # "XRP": (["xrp", "ripple"], "ripple"),
+    "XRP": (["xrp", "ripple"], "ripple"),
+    "DOGE": (["dogecoin", "doge"], "dogecoin"),
+    "ADA": (["cardano"], "cardano"),
+    "TRX": (["tron", "trx"], "tron"),
+    "AVAX": (["avalanche", "avax"], "avalanche-2"),
+    "LINK": (["chainlink"], "chainlink"),
+    "TON": (["toncoin"], "the-open-network"),
+    "DOT": (["polkadot"], "polkadot"),
+    "LTC": (["litecoin", "ltc"], "litecoin"),
+    "SUI": (["sui"], "sui"),
+    "NEAR": (["near protocol"], "near"),
 }
 
 FEEDS = [
